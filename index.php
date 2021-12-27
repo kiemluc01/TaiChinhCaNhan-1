@@ -5,3 +5,4 @@ include_once('config.php');
 include_once('core/Database.php');
 include_once('core/load.php');
 loadTemplate('layout');
+// hello
