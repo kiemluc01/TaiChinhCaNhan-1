@@ -1,0 +1,82 @@
+div#BGR {
+    width: 100%;
+    height: 40%;
+}
+
+div.infor {
+    width: 100%;
+    height: 60%;
+}
+
+div#person {
+    height: 100vh;
+    width: 80%;
+}
+
+img#AVT {
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    top: 20%;
+    left: 53%;
+    border-radius: 50%/50%;
+}
+
+.infor_person {
+    font-size: 20px;
+    color: gray;
+    font-family: roboto;
+    margin: 10px;
+    line-height: 50px;
+    width: 200px;
+}
+
+td.infor_person>input {
+    width: 200px;
+}
+
+tr.infor_person {
+    margin-top: 3vh;
+}
+
+table#infor_person {
+    margin-top: 10vh;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+input#update {
+    height: 40px;
+    line-height: 35px;
+    font-size: 15px;
+    border-radius: 10px/10px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(0, 238, 255), rgb(2, 145, 211), rgb(4, 92, 255));
+}
+
+#name,
+#DoB,
+#GT {
+    height: 25px;
+}
+
+input.camera {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%/50%;
+    background-image: url('../images/camera.jpg');
+    line-height: 50px;
+}
+
+#camera_BGR {
+    margin-top: 28%;
+}
+
+#camera_AVT {
+    position: absolute;
+    top: 40%;
+    left: 53%;
+}

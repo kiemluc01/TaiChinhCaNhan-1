@@ -1,0 +1,75 @@
+li.menu_bar {
+    list-style-type: none;
+    line-height: 50px;
+    background-image: linear-gradient(rgb(83, 65, 243), rgb(29, 154, 163));
+}
+
+ul.container_menu {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: roboto;
+    color: #FFF;
+}
+
+ul>li>a>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px/75px;
+}
+
+ul.menu_bar_con {
+    display: none;
+}
+
+li.menu_bar:hover>ul.menu_bar_con {
+    display: block;
+}
+
+div#menu {
+    background-color: rgb(59, 146, 245);
+    width: 20%;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+div.menu_container {
+    display: flex;
+    height: 100vh;
+}
+
+img#logo_menu {
+    animation: app-logo-spin infinite 10s linear
+}
+
+@keyframes app-logo-spin {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+div.personal {
+    display: block;
+    position: fixed;
+    top: 2vh;
+    left: 80%;
+    display: flex;
+}
+
+div.personal>h3 {
+    color: #FFF;
+    font-family: roboto;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 10%;
+}
